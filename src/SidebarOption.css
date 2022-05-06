@@ -1,0 +1,65 @@
+.sidebarOption {
+    display: flex;
+    align-items: center;
+    color: grey;
+    height: 40px;
+    cursor: pointer;
+    transition: 200ms color ease-in;
+}
+.sidebarOption:hover {
+    color: white;
+}
+
+.sidebar > hr {
+    border: 1px solid #282828;
+    width: 90%;
+    margin: 10px auto;
+}
+.sidebarOption__icon {
+   padding-left: 10px;
+   padding-right: 10px; 
+}
+
+.sidebarOption > p {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.playlist {
+    height: 100%;
+    overflow: hidden;
+}
+
+.styleul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    color: gray;
+    height: 52vh;
+    max-height: 100%;
+    overflow: auto;
+ }
+ 
+ .styleul::-webkit-scrollbar {
+     width: 0.4rem;
+     border-radius: 100px;
+ }
+
+ .styleul::-webkit-scrollbar-thumb {
+     background-color: rgba(255,255,255,0.2);
+ }
+
+ .styleul > li {
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+    transition: 200ms color ease-in;
+    color: gray;
+ }
+
+ .styleul > li:hover {
+    color: white;
+ }

@@ -1,0 +1,124 @@
+.footer {
+    position: fixed;
+    display: inline-flex;
+    justify-content: space-around;
+    bottom: 0;
+    height: 50px;
+    width: 97%;
+    background-color: #181818;
+    z-index: 0;
+    padding: 20px;
+    gap: 15rem;
+}
+
+/* .footer__left {
+    flex: 0.3;
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 300px;
+}
+
+.footer__center {
+    flex: 0.4;
+    padding: 0 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 300px;
+}
+
+ .footer__albumlogo {
+     height: 60px;
+     width: 60px;
+     margin-right: 20px;
+     object-fit: contain;
+ }
+
+ .footer__green {
+     color: #1ed15e;
+ }
+
+ .footer__songInfo > p {
+     font-size: 12px;
+ }
+ .footer__songInfo > h4 {
+    margin-bottom: 5px;
+}
+.footer__icon:hover,
+.footer__green:hover {
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.2) !important;
+}
+ */
+
+.track {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: -7px;
+    margin-left: -1rem;
+    position: fixed;
+    flex: 0.3;
+}
+.track__info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+.track__info > h4 {
+    color: white;
+}
+.track__info > h6 {
+    color: #b3b3b3;
+}
+
+.maincontrols {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: #b3b3b3;
+    transition: 0.2 ease-in-out;
+    flex: 0.6;
+    margin-left: 13rem;
+
+}
+
+.maincontrols > .state  {
+    color: white;
+    margin-top: 0.5rem;
+
+}
+.maincontrols > .previous,.next,.state,.repeat,.shuffle{
+    font-size: 2rem
+}
+.maincontrols > .state:hover {
+    color: #1ed15e;
+    transition: 0.2 ease-in-out;
+}
+.maincontrols > .next:hover{
+    color: #1ed15e;
+    transition: 0.2 ease-in-out;
+}
+.maincontrols > .previous:hover{
+    color: #1ed15e;
+    transition: 0.2 ease-in-out;
+}
+
+.footer__right {
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-left: 60px;
+    flex: 0.3;
+}
+
+.footer__right > .volume{
+    margin-right: 20px;
+} 
+
+ 
